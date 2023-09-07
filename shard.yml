@@ -1,0 +1,23 @@
+name: talk-projects
+version: 0.1.0
+
+dependencies:
+  amqp-client:
+    github: cloudamqp/amqp-client.cr
+
+# authors:
+#   - Christina Dahlén <christina@84codes.com>
+
+# description: |
+#   Example code for presentation demos
+
+# dependencies:
+#   pg:
+#     github: will/crystal-pg
+#     version: "~> 0.5"
+
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock.cr
+
+# license: MIT
