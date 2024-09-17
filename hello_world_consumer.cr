@@ -1,6 +1,6 @@
 require "amqp-client"
 
-AMQP::Client.start("URL") do |c|
+AMQP::Client.start do |c|
   c.channel do |ch|
     q = ch.queue("hello")
     puts "Waiting for messages. To exit press CTRL+C"
