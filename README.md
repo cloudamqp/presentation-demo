@@ -17,6 +17,7 @@ cd presentation-demo
 ```
 ### Install the required dependencies for your app
 
+`shards update`
 `shards install`
 
 ## Install LavinMQ
