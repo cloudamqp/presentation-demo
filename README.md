@@ -10,9 +10,12 @@ In order to run these applications, you need to install the programming language
 
 #### For [Windows](https://crystal-lang.org/install/#:~:text=installing%20on%20MacOS-,Windows,-(preview))
 
-
-## Install the required dependencies for your app
-(While standing in the same folder as your `shards.yml` file)
+## Clone this repository 
+```sh
+git clone git@github.com:cloudamqp/presentation-demo.git
+cd presentation-demo
+```
+### Install the required dependencies for your app
 
 `shards install`
 
@@ -65,3 +68,11 @@ Run LavinMQ with:
 
 Run LavinMQ with:
 `lavinmq -D /var/lib/lavinmq`
+
+## Start app 
+Start the consumer in one terminal window: 
+`crystal run hello_world_consumer.cr`
+
+Start the publisher in another terminal window: 
+`crystal run hello_world_publisher.cr`
+
