@@ -46,10 +46,10 @@ Run LavinMQ with:
 ```sh
 brew install lavinmq
 brew services list
-brew services start laivnmq
+brew services start lavinmq
 ```
 
-To stop LaivnMQ: `brew services stop laivnmq`
+To stop Lavinmq: `brew services stop lavinmq`
 
 
 #### For Linux(Ubuntu/Debian)
