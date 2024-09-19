@@ -84,7 +84,7 @@ URL: http://localhost:15672/ \
 Username: `guest` \
 Password: `guest`
 
-### LavinMQ running on CloudAMQP:
+### LavinMQ running on CloudAMQP
 URL: https://test-freezing-barnacle.lmq.cloudamqp.com/ \
 Username: `tjejerkodar` \
 Password: `84codes`
