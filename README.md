@@ -10,7 +10,7 @@ In order to run these applications, you need to install the programming language
 
 #### For [Windows](https://crystal-lang.org/install/#:~:text=installing%20on%20MacOS-,Windows,-(preview))
 
-## Clone this repository 
+## Clone this repository
 ```sh
 git clone git@github.com:cloudamqp/presentation-demo.git
 cd presentation-demo
@@ -65,15 +65,26 @@ sudo apt-get install lavinmq
 Run LavinMQ with:
 `lavinmq -D /var/lib/lavinmq`
 
-### Start LavinMQ 
+### Start LavinMQ
 
 Run LavinMQ with:
 `lavinmq -D /var/lib/lavinmq`
 
-## Start app 
-Start the consumer in one terminal window: 
+## Start app
+Start the consumer in one terminal window:
 `crystal run hello_world_consumer.cr`
 
-Start the publisher in another terminal window: 
+Start the publisher in another terminal window:
 `crystal run hello_world_publisher.cr`
 
+## Open LavinMQ management UI
+
+### Local LavinMQ
+URL: http://localhost:15672/ \
+Username: `guest` \
+Password: `guest`
+
+### LavinMQ running on CloudAMQP:
+URL: https://test-freezing-barnacle.lmq.cloudamqp.com/ \
+Username: `tjejerkodar` \
+Password: `84codes`
