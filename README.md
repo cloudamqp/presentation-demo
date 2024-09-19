@@ -88,3 +88,12 @@ Password: `guest`
 URL: https://test-freezing-barnacle.lmq.cloudamqp.com/ \
 Username: `tjejerkodar` \
 Password: `84codes`
+
+## Nice to have
+
+### AMQP client libraries
+
+Client for Crystal used in code along: https://github.com/cloudamqp/amqp-client.cr \
+More code examples: https://www.cloudamqp.com/docs/crystal.html
+
+Clients for other languages and code examples: https://www.cloudamqp.com/docs/ruby.html#:~:text=HTTP-,CODE%20SAMPLE,-Ruby
